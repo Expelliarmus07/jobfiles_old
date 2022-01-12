@@ -1,0 +1,7 @@
+SPLICE A start.dag
+SPLICE B tutorial_montage.dag
+SPLICE C tutorial_montage_part2.dag
+
+PARENT A CHILD B
+PARENT B CHILD C
+

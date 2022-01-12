@@ -1,0 +1,14 @@
+executable            = /home/Montage/bin/HPXcvt 
+arguments             = HFI_SkyMap_857_2048_R2.02_full.fits Planck857.fits
+input                 = HFI_SkyMap_857_2048_R2.02_full.fits 
+
+error                 = condor.error
+log                   = condor.log
+ 
+request_cpus          = 1
+request_memory        = 1024
+request_disk          = 10240
+ 
+should_transfer_files = yes
+
+queue

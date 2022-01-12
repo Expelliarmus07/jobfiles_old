@@ -1,0 +1,7 @@
+JOB A start_A
+JOB B start_B
+JOB C start_C
+
+PARENT A CHILD B
+PARENT B CHILD C
+

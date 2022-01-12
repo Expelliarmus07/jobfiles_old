@@ -1,0 +1,7 @@
+SPLICE A start.dag
+SPLICE B healpix.dag
+SPLICE C tutorial_montage.dag
+SPLICE D tutorial_montage_part2.dag
+
+PARENT A CHILD B C
+PARENT C CHILD D

@@ -1,0 +1,8 @@
+executable            = /usr/bin/tar
+arguments             = xvf Kimages.tar
+input                 = Kimages.tar
+
+should_transfer_files = yes
+transfer_output_files = Kimages
+queue
+

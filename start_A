@@ -1,0 +1,16 @@
+executable            = /usr/bin/wget
+arguments             = "http://montage.ipac.caltech.edu/docs/Kimages.tar"
+#input                 = 
+
+#error                 = condor.error
+#log                   = condor.log
+ 
+#request_cpus          = 1
+#request_memory        = 256
+#request_disk          = 10240
+ 
+should_transfer_files = yes
+
+ 
+queue
+

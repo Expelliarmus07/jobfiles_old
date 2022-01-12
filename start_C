@@ -1,0 +1,8 @@
+executable            = /usr/bin/mkdir
+arguments             = Kprojdir diffdir corrdir
+
+should_transfer_files = yes
+transfer_output_files = Kprojdir,diffdir,corrdir 
+
+queue
+

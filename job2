@@ -1,0 +1,15 @@
+executable            = /home/Montage/bin/mMakeHdr
+arguments             = Kimages.tbl Ktemplate.hdr
+input                 = Kimages.tbl
+
+error                 = condor.error
+log                   = condor.log
+ 
+request_cpus          = 1
+request_memory        = 256
+request_disk          = 10240
+ 
+should_transfer_files = yes
+ 
+queue
+
